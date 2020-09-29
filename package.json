@@ -1,0 +1,45 @@
+{
+  "name": "Platzi",
+  "version": "1.0.0",
+  "description": "Maquetación Platzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp",
+    "devel": "gulp devel"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "MaryGaby",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "autoprefixer": "^8.6.3",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.26.3",
+    "compass": "^0.1.1",
+    "compass-mixins": "^0.12.10",
+    "cssnext": "^1.8.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-eslint": "^4.0.2",
+    "gulp-image": "^4.4.1",
+    "gulp-postcss": "^7.0.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sass-lint": "^1.4.0",
+    "gulp-sequence": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-watch": "^5.0.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.9.0",
+    "precss": "^3.1.2"
+  },
+  "dependencies": {}
+}

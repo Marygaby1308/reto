@@ -121,6 +121,32 @@
   color: #333333;
   font-family: "DIN Pro"; }
 
+.card--sm {
+  font-family: "DIN Pro"; }
+  .card--sm .card:after {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 2px;
+    background-color: #eeeeee;
+    margin: auto; }
+    @media (min-width: 576px) {
+      .card--sm .card:after {
+        width: 2px;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0; } }
+  .card--sm:last-child .card::after {
+    display: none; }
+  .card--sm .card__name {
+    font-size: 13px;
+    line-height: 16px;
+    color: #666666;
+    font-family: "DIN Pro"; }
+  .card--sm .card-text {
+    line-height: 17px; }
+
 .jumbotron {
   background-color: #f5f5f5; }
   .jumbotron__title {

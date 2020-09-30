@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "DIN Pro";
+  src: local("DIN Pro Regular"), local("DIN-Pro-Regular"),
+    url("../fonts/DINPRO/DINPro.woff2") format("woff2"),
+    url("../fonts/DINPRO/DINPro.woff") format("woff"),
+    url("../fonts/DINPRO/DINPro.ttf") format("truetype");
+  font-style: normal;
+}
+$font-primary: "Roboto";
+$font-secondary: "DIN Pro";

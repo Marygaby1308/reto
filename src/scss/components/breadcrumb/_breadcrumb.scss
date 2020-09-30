@@ -7,7 +7,7 @@
       line-height: 16px;
       color: #797979;
       font-weight: 400;
-      font-family: "Roboto";
+      font-family: $font-primary;
     }
   }
   &__link {
@@ -15,6 +15,6 @@
     font-size: 13px;
     line-height: 16px;
     font-weight: 300;
-    font-family: "Roboto";
+    font-family: $font-primary;
   }
 }

@@ -1,14 +1,18 @@
 .section {
   &__title {
-    font-size: 32px;
-    line-height: 49px;
-    font-family: "D IN Pro";
+    font-size: 25px;
+    line-height: 42px;
+    font-family: $font-secondary;
+    @media (min-width: 576px) {
+      font-size: 32px;
+      line-height: 49px;
+    }
   }
   &__link {
     font-size: 16px;
     line-height: 19px;
     color: $color-link;
-    font-family: "D IN Pro";
+    font-family: $font-secondary;
     &:after {
       content: "";
       width: 8px;

@@ -1,5 +1,10 @@
 /* Variables */
 /* Backgorunds colors */
+@font-face {
+  font-family: "DIN Pro";
+  src: local("DIN Pro Regular"), local("DIN-Pro-Regular"), url("../fonts/DINPRO/DINPro.woff2") format("woff2"), url("../fonts/DINPRO/DINPro.woff") format("woff"), url("../fonts/DINPRO/DINPro.ttf") format("truetype");
+  font-style: normal; }
+
 /* Utilidades */
 .text-black {
   color: #000000; }
@@ -11,7 +16,6 @@
     margin-right: 20px; }
   .nav__wrapper .nav-link {
     font-size: 14px;
-    letter-spacing: 0px;
     line-height: 17px; }
 
 .nav-link {
@@ -84,11 +88,13 @@
   font-size: 24px;
   line-height: 24px;
   font-weight: 500;
-  font-family: "D IN Pro"; }
+  font-family: "DIN Pro"; }
 
 .card-text {
   color: #656565;
-  font-family: "Roboto"; }
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px; }
 
 .card__wrapper {
   background-color: #f9f9f9; }
@@ -100,7 +106,7 @@
 .card__name {
   font-size: 15px;
   line-height: 19px;
-  font-family: "D IN Pro"; }
+  font-family: "DIN Pro"; }
 
 .card__price {
   font-size: 20px;
@@ -113,7 +119,7 @@
   font-size: 12px;
   line-height: 14px;
   color: #333333;
-  font-family: "D IN Pro"; }
+  font-family: "DIN Pro"; }
 
 .jumbotron {
   background-color: #f5f5f5; }
@@ -121,7 +127,7 @@
     font-size: 18px;
     line-height: 18px;
     font-weight: 500;
-    font-family: "D IN Pro"; }
+    font-family: "DIN Pro"; }
   .jumbotron__text {
     font-size: 13px;
     line-height: 16px;
@@ -145,16 +151,25 @@
   .btn--icon:after {
     margin-left: 20px; }
 
+.heading {
+  font-size: 25px;
+  line-height: 30px;
+  font-family: "DIN Pro"; }
+
 .section__title {
-  font-size: 32px;
-  line-height: 49px;
-  font-family: "D IN Pro"; }
+  font-size: 25px;
+  line-height: 42px;
+  font-family: "DIN Pro"; }
+  @media (min-width: 576px) {
+    .section__title {
+      font-size: 32px;
+      line-height: 49px; } }
 
 .section__link {
   font-size: 16px;
   line-height: 19px;
   color: #0f8fa5;
-  font-family: "D IN Pro"; }
+  font-family: "DIN Pro"; }
   .section__link:after {
     content: "";
     width: 8px;

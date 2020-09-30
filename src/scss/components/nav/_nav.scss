@@ -1,0 +1,35 @@
+.nav {
+  &__wrapper {
+    background-color: $color-dark;
+    .nav-item {
+      &:nth-child(3) {
+        margin-right: 20px;
+      }
+    }
+    .nav-link {
+      font-size: 14px;
+      letter-spacing: 0px;
+      line-height: 17px;
+    }
+  }
+  &-link {
+    letter-spacing: 0px;
+    font-weight: 500;
+    font-family: "Roboto";
+  }
+  &__user-icon {
+    background-color: $color-blue-ligth;
+  }
+  &__notifications {
+    width: 25px;
+    height: 25px;
+    color: $color-blue-ligth;
+  }
+  &__search {
+    max-width: 376px;
+    height: 30px;
+    &-btn {
+      background-color: $color-blue-ligth;
+    }
+  }
+}

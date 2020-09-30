@@ -1,5 +1,9 @@
 .breadcrumb {
-  &--bg {
-    background-color: transparent;
+  &__link {
+    color: #1f97ac;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 300;
+    font-family: "Roboto";
   }
 }

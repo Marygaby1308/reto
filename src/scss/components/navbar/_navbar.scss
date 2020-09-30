@@ -1,5 +1,7 @@
 .navbar {
   background-color: $color-primary;
-  &__link {
+  .nav-link {
+    font-size: 18px;
+    line-height: 22px;
   }
 }

@@ -1,5 +1,40 @@
+.nav__wrapper {
+  background-color: #212121; }
+  .nav__wrapper .nav-item:nth-child(3) {
+    margin-right: 20px; }
+  .nav__wrapper .nav-link {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 17px; }
+
+.nav-link {
+  letter-spacing: 0px;
+  font-weight: 500;
+  font-family: "Roboto"; }
+
+.nav__user-icon {
+  background-color: #1f97ae; }
+
+.nav__notifications {
+  width: 25px;
+  height: 25px;
+  color: #1f97ae; }
+
+.nav__search {
+  max-width: 376px;
+  height: 30px; }
+  .nav__search-btn {
+    background-color: #1f97ae; }
+
 .navbar {
   background-color: #dc2224; }
+  .navbar .nav-link {
+    font-size: 18px;
+    line-height: 22px; }
 
-.breadcrumb--bg {
-  background-color: transparent; }
+.breadcrumb__link {
+  color: #1f97ac;
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 300;
+  font-family: "Roboto"; }

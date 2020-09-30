@@ -17,48 +17,132 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand navbar__link" href="#">
-          <figure>
-            <img src="./static/img/logo.svg" alt="Logo Claro" />
-          </figure>
-        </a>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+    <header class="header">
+      <div class="nav__wrapper">
+        <div class="container d-flex justify-content-between pl-0 pr-0">
+          <ul class="nav align-items-center">
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Servicios</a>
+              <a class="nav-link text-white" href="#">Personas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Tienda</a>
+              <a class="nav-link text-white" href="#">Empresas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Soporte</a>
+              <a class="nav-link text-white" href="#">Corporaciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Claro video</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Claro Música</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Claro play</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Otros sitios</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input
-              class="form-control mr-sm-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
-            </button>
-          </form>
+          <div class="nav__user-wrapper d-flex align-items-center">
+            <span class="nav__user-text text-white mr-2">Ingresar</span>
+            <div class="nav__user-icon d-flex align-items-center">
+              <a href="#">
+                <i class="">cart</i>
+              </a>
+
+              <div
+                class="nav__notifications bg-white rounded-circle d-flex justify-content-center"
+              >
+                0
+              </div>
+
+              <div class="dropdown bg-transparent">
+                <button
+                  class="btn dropdown-toggle text-white"
+                  type="button"
+                  id="dropdownMenu2"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                ></button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <button class="dropdown-item" type="button">Action</button>
+                  <button class="dropdown-item" type="button">
+                    Another action
+                  </button>
+                  <button class="dropdown-item" type="button">
+                    Something else here
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg py-1 px-0">
+        <div class="container">
+          <a class="navbar-brand navbar__link" href="#">
+            <figure>
+              <img src="./static/img/logo.svg" alt="Logo Claro" />
+            </figure>
+          </a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Tienda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Soporte</a>
+              </li>
+            </ul>
+            <div class="input-group nav__search w-100">
+              <input
+                type="text"
+                class="form-control h-100"
+                placeholder="Recipient's username"
+                aria-label="Recipient's username"
+                aria-describedby="button-addon2"
+              />
+              <div class="input-group-append nav__search-btn h-100">
+                <button
+                  class="btn btn-outline-secondary"
+                  type="button"
+                  id="button-addon2"
+                >
+                  B
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
-    <main>
+    <main class="container">
       <div class="breadcrumb__wrapper">
-        <ol class="breadcrumb breadcrumb--bg">
-          <li class="breadcrumb-item"><a href="#">Tienda prepago</a></li>
-          <li class="breadcrumb-item"><a href="#">Celulares</a></li>
-          <li class="breadcrumb-item"><a href="#">Smartphones</a></li>
-          <li class="breadcrumb-item active" aria-current="page">
+        <ol class="breadcrumb bg-transparent pl-0 pr-0">
+          <li class="breadcrumb-item align-items-center">
+            <a href="#" class="breadcrumb__link">Tienda prepago</a>
+          </li>
+          <li class="breadcrumb-item align-items-center">
+            <a href="#" class="breadcrumb__link">Celulares</a>
+          </li>
+          <li class="breadcrumb-item align-items-center">
+            <a href="#" class="breadcrumb__link">Smartphones</a>
+          </li>
+          <li
+            class="breadcrumb-item breadcrumb__link align-items-center active"
+            aria-current="page"
+          >
             Nuevo Moto X
           </li>
         </ol>

@@ -210,6 +210,9 @@
 .section--bg-ligth {
   background-color: #f5f5f5; }
 
+.section__border {
+  border-top: 2px solid #eeeeee; }
+
 /* Layout */
 .footer__top {
   background-color: #dddddd; }

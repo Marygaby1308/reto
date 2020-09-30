@@ -27,4 +27,7 @@
   &--bg-ligth {
     background-color: $bg-ligth;
   }
+  &__border {
+    border-top: 2px solid $bg-gray-500;
+  }
 }

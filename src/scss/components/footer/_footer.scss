@@ -5,4 +5,10 @@
   &__bottom {
     background-color: $color-dark;
   }
+  &__text {
+    font-size: 13px;
+    &--link {
+      color: $color-blue-ligth;
+    }
+  }
 }

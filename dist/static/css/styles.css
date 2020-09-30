@@ -175,3 +175,8 @@
 
 .footer__bottom {
   background-color: #212121; }
+
+.footer__text {
+  font-size: 13px; }
+  .footer__text--link {
+    color: #1f97ae; }

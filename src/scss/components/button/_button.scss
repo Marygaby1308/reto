@@ -1,0 +1,19 @@
+.btn {
+  &--icon {
+    background-color: $bg-btn-primary;
+    &:before {
+      content: "";
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-image: url("../img/icon-cel.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      margin-right: 20px;
+    }
+    &:after {
+      margin-left: 20px;
+    }
+  }
+}

@@ -1,4 +1,9 @@
 /* Variables */
+/* Backgorunds colors */
+/* Utilidades */
+.text-black {
+  color: #000000; }
+
 /* Componentes */
 .nav__wrapper {
   background-color: #212121; }
@@ -41,6 +46,16 @@
     font-size: 18px;
     line-height: 22px; }
 
+.breadcrumb--bg-ligth {
+  background-color: #cacaca; }
+  .breadcrumb--bg-ligth .breadcrumb__link {
+    font-size: 13px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    color: #797979;
+    font-weight: 400;
+    font-family: "Roboto"; }
+
 .breadcrumb__link {
   color: #1f97ac;
   font-size: 13px;
@@ -52,7 +67,7 @@
   background-image: url("../img/prev.png"); }
 
 .carousel-control-next-icon {
-  background-image: url("..//img/next.png"); }
+  background-image: url("../img/next.png"); }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
   width: 16px;
@@ -75,6 +90,31 @@
   color: #656565;
   font-family: "Roboto"; }
 
+.card__wrapper {
+  background-color: #f9f9f9; }
+  .card__wrapper:hover {
+    background-color: #e8e8e8; }
+  .card__wrapper .card__img {
+    height: 137px; }
+
+.card__name {
+  font-size: 15px;
+  line-height: 19px;
+  font-family: "D IN Pro"; }
+
+.card__price {
+  font-size: 20px;
+  line-height: 23px;
+  color: #333333; }
+  .card__price--sm {
+    font-size: 13px; }
+
+.card__text {
+  font-size: 12px;
+  line-height: 14px;
+  color: #333333;
+  font-family: "D IN Pro"; }
+
 .jumbotron {
   background-color: #f5f5f5; }
   .jumbotron__title {
@@ -89,10 +129,49 @@
     font-weight: 400;
     font-family: "Roboto"; }
 
+.btn--icon {
+  background-color: #da262d; }
+  .btn--icon:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/icon-cel.png");
+    -webkit-background-size: contain;
+            background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 20px; }
+  .btn--icon:after {
+    margin-left: 20px; }
+
+.section__title {
+  font-size: 32px;
+  line-height: 49px;
+  font-family: "D IN Pro"; }
+
 .section__link {
   font-size: 16px;
   line-height: 19px;
   color: #0f8fa5;
   font-family: "D IN Pro"; }
+  .section__link:after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-image: url("../img/linea.png");
+    display: block;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+            background-size: contain;
+    margin-left: 5px; }
+
+.section--bg-ligth {
+  background-color: #f5f5f5; }
 
 /* Layout */
+.footer__top {
+  background-color: #dddddd; }
+
+.footer__bottom {
+  background-color: #212121; }

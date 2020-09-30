@@ -1,8 +1,26 @@
 .section {
+  &__title {
+    font-size: 32px;
+    line-height: 49px;
+    font-family: "D IN Pro";
+  }
   &__link {
     font-size: 16px;
     line-height: 19px;
     color: $color-link;
     font-family: "D IN Pro";
+    &:after {
+      content: "";
+      width: 8px;
+      height: 8px;
+      background-image: url("../img/linea.png");
+      display: block;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin-left: 5px;
+    }
+  }
+  &--bg-ligth {
+    background-color: $bg-ligth;
   }
 }

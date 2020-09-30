@@ -1,4 +1,15 @@
 .breadcrumb {
+  &--bg-ligth {
+    background-color: $bg-gray-300;
+    .breadcrumb__link {
+      font-size: 13px;
+      letter-spacing: 0px;
+      line-height: 16px;
+      color: #797979;
+      font-weight: 400;
+      font-family: "Roboto";
+    }
+  }
   &__link {
     color: #1f97ac;
     font-size: 13px;

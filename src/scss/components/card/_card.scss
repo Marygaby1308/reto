@@ -9,4 +9,34 @@
     color: #656565;
     font-family: "Roboto";
   }
+
+  &__wrapper {
+    background-color: $bg-gray-100;
+    &:hover {
+      background-color: $bg-gray-200;
+    }
+
+    .card__img {
+      height: 137px;
+    }
+  }
+  &__name {
+    font-size: 15px;
+    line-height: 19px;
+    font-family: "D IN Pro";
+  }
+  &__price {
+    font-size: 20px;
+    line-height: 23px;
+    color: $color-gray-300;
+    &--sm {
+      font-size: 13px;
+    }
+  }
+  &__text {
+    font-size: 12px;
+    line-height: 14px;
+    color: $color-gray-300;
+    font-family: "D IN Pro";
+  }
 }

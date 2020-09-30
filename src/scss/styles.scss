@@ -1,7 +1,16 @@
+/* Variables */
 @import "./variables/_colors";
 @import "./variables/typography";
+
+/* Componentes */
 @import "./components/nav/nav";
 @import "./components/navbar/navbar";
 @import "./components/breadcrumb/breadcrumb";
+@import "./components/carousel/carousel";
+@import "./components/card/card";
+@import "./components/jumbotron/jumbotron";
+@import "./components/section/section";
+
+/* Layout */
 @import "./components/header/header";
 @import "./components/footer/footer";

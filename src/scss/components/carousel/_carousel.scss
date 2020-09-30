@@ -1,0 +1,19 @@
+.carousel {
+  &-control-prev-icon {
+    background-image: url("../img/prev.png");
+  }
+  &-control-next-icon {
+    background-image: url("..//img/next.png");
+  }
+  &-control-prev-icon,
+  &-control-next-icon {
+    width: 16px;
+    height: 27px;
+  }
+  &__item {
+    width: 66px;
+    height: 67px;
+    border-radius: 7px;
+    background-color: #eeeeee;
+  }
+}

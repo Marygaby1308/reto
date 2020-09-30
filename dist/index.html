@@ -105,17 +105,18 @@
                 <a class="nav-link text-white" href="#">Soporte</a>
               </li>
             </ul>
+
             <div class="input-group nav__search w-100">
               <input
                 type="text"
                 class="form-control h-100"
-                placeholder="Recipient's username"
-                aria-label="Recipient's username"
+                placeholder="Buscar en tienda"
+                aria-label="Buscar en tienda"
                 aria-describedby="button-addon2"
               />
-              <div class="input-group-append nav__search-btn h-100">
+              <div class="input-group-append h-100">
                 <button
-                  class="btn btn-outline-secondary"
+                  class="btn nav__search-btn"
                   type="button"
                   id="button-addon2"
                 >
@@ -127,8 +128,8 @@
         </div>
       </nav>
     </header>
-    <main class="container">
-      <div class="breadcrumb__wrapper">
+    <main>
+      <section class="breadcrumb__wrapper container">
         <ol class="breadcrumb bg-transparent pl-0 pr-0">
           <li class="breadcrumb-item align-items-center">
             <a href="#" class="breadcrumb__link">Tienda prepago</a>
@@ -146,16 +147,266 @@
             Nuevo Moto X
           </li>
         </ol>
-      </div>
-
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
+      </section>
+      <section class="container p-lg-5">
+        <div class="row">
+          <div class="col col-lg-7">
+            <div
+              id="carouselExampleControls"
+              class="carousel slide bg-white"
+              data-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./static/img/slide.png"
+                    class="d-block mx-auto"
+                    alt="Celular"
+                  />
+                  <div
+                    class="d-flex justify-content-center align-items-center my-3"
+                  >
+                    <ul class="d-flex list-unstyled">
+                      <li
+                        class="carousel__item list-inline-item px-2 py-1 mr-2"
+                      >
+                        <img
+                          src="./static/img/01.png"
+                          alt="imagen 1"
+                          class="d-block mx-auto"
+                        />
+                      </li>
+                      <li
+                        class="carousel__item list-inline-item px-2 py-1 mr-2"
+                      >
+                        <img
+                          src="./static/img/02.png"
+                          alt="imagen 2"
+                          class="d-block mx-auto"
+                        />
+                      </li>
+                      <li class="carousel__item list-inline-item px-2 py-1">
+                        <img
+                          src="./static/img/03.png"
+                          alt="imagen 3"
+                          class="d-block mx-auto"
+                        />
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./static/img/slide.png"
+                    class="d-block mx-auto"
+                    alt="Celular"
+                  />
+                  <div
+                    class="d-flex justify-content-center align-items-center my-3"
+                  >
+                    <ul class="d-flex list-unstyled">
+                      <li
+                        class="carousel__item list-inline-item px-2 py-1 mr-2"
+                      >
+                        <img
+                          src="./static/img/01.png"
+                          alt="imagen 1"
+                          class="d-block mx-auto"
+                        />
+                      </li>
+                      <li
+                        class="carousel__item list-inline-item px-2 py-1 mr-2"
+                      >
+                        <img
+                          src="./static/img/02.png"
+                          alt="imagen 2"
+                          class="d-block mx-auto"
+                        />
+                      </li>
+                      <li class="carousel__item list-inline-item px-2 py-1">
+                        <img
+                          src="./static/img/03.png"
+                          alt="imagen 3"
+                          class="d-block mx-auto"
+                        />
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#carouselExampleControls"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselExampleControls"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+              </a>
+            </div>
+          </div>
+          <div class="col col-lg-5">
+            <h3 class="heading">Motorola</h3>
+            <h3 class="heading">Nuevo Moto X Blanco</h3>
+          </div>
+        </div>
+      </section>
+      <section class="container">
+        <div class="row">
+          <div class="col-sm">
+            <div class="card border-0">
+              <h3 class="card__title text-black mb-3">Desempeño durarero</h3>
+              <img
+                src="./static/img/imagen-card.png"
+                class="card-img-top"
+                alt="img card 1"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Completely impact multifunctional cesses and wireless supply
+                  chains. Dynamically en gage business meta-services for
+                  market-driven data.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card border-0">
+              <h3 class="card__title text-black mb-3">
+                Diseño resistente al agua
+              </h3>
+              <img
+                src="./static/img/imagen-card.png"
+                class="card-img-top"
+                alt="img card 1"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Completely impact multifunctional cesses and wireless supply
+                  chains. Dynamically en gage business meta-services for
+                  market-driven data.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card border-0">
+              <h3 class="card__title text-black mb-3">
+                Aplicaciones avanzadas
+              </h3>
+              <img
+                src="./static/img/imagen-card.png"
+                class="card-img-top"
+                alt="img card 1"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Completely impact multifunctional cesses and wireless supply
+                  chains. Dynamically en gage business meta-services for
+                  market-driven data.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="jumbotron jumbotron-fluid py-3">
+          <div class="container">
+            <h1 class="jumbotron__title text-black">Consideraciones:</h1>
+            <p class="jumbotron__text mb-0">
+              quipos con tecnología 4GLTE: Velocidad mínima en cobertura 4G LTE:
+              1.2Mbps de bajada. Requiere nuevo chip 4G LTE. Consulta mapa de
+              cobertura y restricciones en www.claro.com.pe
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="container">
+        <div class="d-flex justify-content-between">
+          <h2>También te recomendamos</h2>
+          <a href="#" class="link-more"> Más equipos </a>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            <div class="card card--bg border-0">
+              <img
+                src="./static/img/samsung.png"
+                class="card-img-top"
+                alt="img samsung"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Completely impact multifunctional cesses and wireless supply
+                  chains. Dynamically en gage business meta-services for
+                  market-driven data.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card card--bg border-0">
+              <img
+                src="./static/img/verykool.png"
+                class="card-img-top"
+                alt="img verykool"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Completely impact multifunctional cesses and wireless supply
+                  chains. Dynamically en gage business meta-services for
+                  market-driven data.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card card--bg border-0">
+              <img
+                src="./static/img/cel.png"
+                class="card-img-top"
+                alt="img cel"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Completely impact multifunctional cesses and wireless supply
+                  chains. Dynamically en gage business meta-services for
+                  market-driven data.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="card card--bg border-0">
+              <img
+                src="./static/img/sony.png"
+                class="card-img-top"
+                alt="img sony"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Completely impact multifunctional cesses and wireless supply
+                  chains. Dynamically en gage business meta-services for
+                  market-driven data.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>Footer</footer>
     <script

@@ -1,3 +1,5 @@
+/* Variables */
+/* Componentes */
 .nav__wrapper {
   background-color: #212121; }
   .nav__wrapper .nav-item:nth-child(3) {
@@ -22,9 +24,16 @@
 
 .nav__search {
   max-width: 376px;
-  height: 30px; }
+  height: 30px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px; }
   .nav__search-btn {
-    background-color: #1f97ae; }
+    background-color: #1f97ae;
+    -webkit-border-top-right-radius: 5px;
+            border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+    border: 1px solid #fff; }
 
 .navbar {
   background-color: #dc2224; }
@@ -38,3 +47,52 @@
   line-height: 16px;
   font-weight: 300;
   font-family: "Roboto"; }
+
+.carousel-control-prev-icon {
+  background-image: url("../img/prev.png"); }
+
+.carousel-control-next-icon {
+  background-image: url("..//img/next.png"); }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  width: 16px;
+  height: 27px; }
+
+.carousel__item {
+  width: 66px;
+  height: 67px;
+  -webkit-border-radius: 7px;
+          border-radius: 7px;
+  background-color: #eeeeee; }
+
+.card__title {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: "D IN Pro"; }
+
+.card-text {
+  color: #656565;
+  font-family: "Roboto"; }
+
+.jumbotron {
+  background-color: #f5f5f5; }
+  .jumbotron__title {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 500;
+    font-family: "D IN Pro"; }
+  .jumbotron__text {
+    font-size: 13px;
+    line-height: 16px;
+    color: #656565;
+    font-weight: 400;
+    font-family: "Roboto"; }
+
+.section__link {
+  font-size: 16px;
+  line-height: 19px;
+  color: #0f8fa5;
+  font-family: "D IN Pro"; }
+
+/* Layout */

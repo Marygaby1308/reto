@@ -1,0 +1,16 @@
+.jumbotron {
+  background-color: $bg-ligth;
+  &__title {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 500;
+    font-family: "D IN Pro";
+  }
+  &__text {
+    font-size: 13px;
+    line-height: 16px;
+    color: #656565;
+    font-weight: 400;
+    font-family: "Roboto";
+  }
+}

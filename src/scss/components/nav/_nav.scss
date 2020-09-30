@@ -28,8 +28,12 @@
   &__search {
     max-width: 376px;
     height: 30px;
+    border-radius: 5px;
     &-btn {
       background-color: $color-blue-ligth;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border: 1px solid #fff;
     }
   }
 }

@@ -19,6 +19,9 @@
   &__user-icon {
     background-color: $color-blue-ligth;
   }
+  &__icon {
+    width: 20px;
+  }
   &__notifications {
     width: 25px;
     height: 25px;
@@ -33,6 +36,9 @@
       border-top-right-radius: 5px;
       border-bottom-right-radius: 5px;
       border: 1px solid #fff;
+    }
+    &-img {
+      width: 15px;
     }
   }
 }

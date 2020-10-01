@@ -44,25 +44,25 @@
         </ul>
         <div class="nav__user-wrapper d-flex align-items-center">
           <span class="nav__user-text text-white mr-2">Ingresar</span>
-          <div class="nav__user-icon d-flex align-items-center">
+          <div class="nav__user-icon d-flex align-items-center justify-content-between px-1">
             <a href="#">
-              <i class="">cart</i>
+              <img src="./dist/static/img/cart.svg" alt="cart" class="nav__icon">
             </a>
 
-            <div class="nav__notifications bg-white rounded-circle d-flex justify-content-center">
+            <div class="nav__notifications bg-white rounded-circle d-flex justify-content-center align-items-end mx-2">
               0
             </div>
 
             <div class="dropdown bg-transparent">
-              <button class="btn dropdown-toggle text-white" type="button" id="dropdownMenu2" data-toggle="dropdown"
+              <button class="btn dropdown-toggle text-white px-1" type="button" id="dropdownMenu2" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"></button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                <button class="dropdown-item" type="button">Action</button>
+                <button class="dropdown-item" type="button">Opción 1</button>
                 <button class="dropdown-item" type="button">
-                  Another action
+                  Opción 2
                 </button>
                 <button class="dropdown-item" type="button">
-                  Something else here
+                  Opción 3
                 </button>
               </div>
             </div>
@@ -77,6 +77,9 @@
           <img src="./dist/static/img/logo.svg" alt="Logo Claro" />
 
         </a>
+        <button class="navbar-toggler navbar__menu" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
@@ -94,8 +97,8 @@
             <input type="text" class="form-control h-100" placeholder="Buscar en tienda" aria-label="Buscar en tienda"
               aria-describedby="button-addon2" />
             <div class="input-group-append h-100">
-              <button class="btn nav__search-btn" type="button" id="button-addon2">
-                B
+              <button class="btn nav__search-btn py-0 px-2" type="button" id="button-addon2">
+                <img src="./dist/static/img/search.svg" alt="search" class="nav__search-img">
               </button>
             </div>
           </div>
@@ -205,14 +208,14 @@
             </div>
           </div>
           <div class="row mt-4 align-items-center">
-            <div class="col-lg-6 mb-md-2">
+            <div class="col-lg-5 mb-md-2">
               <p class="card__price font-weight-bold mb-0">
                 <span class="card__price--md font-weight-normal">S/.</span>659.00
                 <span class="card__price--md font-weight-normal">S/. <b> 989.00</b></span>
               </p>
-              <p class="card__text text-md-center">En Prepago</p>
+              <p class="card__text text-md-center mb-0">En Prepago</p>
             </div>
-                      <div class="col-lg-6">
+                      <div class="col-lg-7 text-lg-right">
         
                         <div class="btn-group dropright">
                           <button type="button" class="btn btn--md dropdown-toggle text-white font-weight-bold" aria-haspopup="true" aria-expanded="false">
@@ -556,15 +559,33 @@
           </div>
         </div>
         <div class="row align-items-center">
-          <div class="col-sm-12 col-md">
+          <div class="col-sm col-md-3">
             <ul class="list-inline">
               <li class="font-weight-bold">Redes sociales</li>
-              <li class="list-inline-item">Lorem ipsum</li>
-              <li class="list-inline-item">Phasellus iaculis</li>
-              <li class="list-inline-item">Nulla volutpat</li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/AmericaMovilPeruSAC" target="_blank" rel="noopener noreferrer">
+                <img src="./dist/static/img/facebook.svg" alt="facebook" class="list__img">
+              </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://twitter.com/claroperu" target="_blank" rel="noopener noreferrer">
+                <img src="./dist/static/img/twitter.svg" alt="twitter" class="list__img">
+              </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.youtube.com/claroperu" target="_blank" rel="noopener noreferrer">
+                <img src="./dist/static/img/youtube.svg" alt="youtube" class="list__img">
+              </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                <img src="./dist/static/img/googleplus.svg" alt="googleplus" class="list__img">
+              </a>
+              </li>
+
             </ul>
           </div>
-          <div class="col-sm-12 col-md">
+          <div class="col-sm col-md">
             <a href="#" class="d-flex align-items-baseline">
               <img src="./dist/static/img/libro.png" alt="Libro">
               <span class="footer__text text-black ml-2">Libro de reclamaciones</span>

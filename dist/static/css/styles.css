@@ -284,6 +284,8 @@
   line-height: 19px;
   color: #0f8fa5;
   font-family: "DIN Pro"; }
+  .section__link:hover {
+    color: #0f8fa5; }
   .section__link:after {
     content: "";
     width: 8px;
@@ -310,5 +312,9 @@
 
 .footer__text {
   font-size: 13px; }
+  .footer__text:hover {
+    text-decoration: none; }
   .footer__text--link {
     color: #1f97ae; }
+    .footer__text--link:hover {
+      color: #ffffff; }

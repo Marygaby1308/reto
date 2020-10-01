@@ -13,6 +13,9 @@
     line-height: 19px;
     color: $color-link;
     font-family: $font-secondary;
+    &:hover {
+      color: $color-link;
+    }
     &:after {
       content: "";
       width: 8px;

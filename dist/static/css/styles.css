@@ -10,6 +10,10 @@
   color: #000000; }
 
 /* Componentes */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1366px; } }
+
 .nav__wrapper {
   background-color: #212121; }
   .nav__wrapper .nav-item:nth-child(3) {

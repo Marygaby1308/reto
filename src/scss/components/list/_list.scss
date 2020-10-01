@@ -1,0 +1,41 @@
+.list {
+  &__box {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: $bg-gray-500;
+    font-size: 15px;
+    line-height: 18px;
+    color: $color-gray-500;
+    font-family: $font-primary;
+    &--active {
+      &:before {
+        content: "";
+        display: block;
+        width: 0;
+        height: 0;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 7px solid $color-blue-ligth;
+        position: absolute;
+        top: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+    &--one {
+      background-color: $bg-blue-dark;
+    }
+    &--two {
+      background-color: $bg-yellow;
+    }
+    &--three {
+      background-color: $bg-orange;
+    }
+    &-text {
+      font-size: 13px;
+      line-height: 16px;
+      font-family: $font-primary;
+    }
+  }
+}

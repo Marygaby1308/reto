@@ -34,6 +34,10 @@
     &--sm {
       font-size: 13px;
     }
+    &--md {
+      font-size: 15px;
+      color: $color-gray-400;
+    }
   }
   &__text {
     font-size: 12px;
@@ -41,6 +45,7 @@
     color: $color-gray-300;
     font-family: $font-secondary;
   }
+
   &--sm {
     font-family: $font-secondary;
     .card {

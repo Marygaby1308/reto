@@ -10,7 +10,7 @@
       background-size: contain;
       background-repeat: no-repeat;
       vertical-align: middle;
-      margin-right: 20px;
+      margin-right: 12px;
     }
     &:after {
       margin-left: 20px;
@@ -27,6 +27,14 @@
       &:after {
         border-left-color: $bg-orange-100;
       }
+    }
+  }
+  &__login {
+    width: 104px;
+    height: 68px;
+    background-color: #b91c29;
+    &:focus {
+      box-shadow: none;
     }
   }
 }

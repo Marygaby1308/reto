@@ -17,8 +17,8 @@
 <body>
   <header class="header">
     <div class="nav__wrapper">
-      <div class="container d-flex justify-content-between pl-0 pr-0">
-        <ul class="nav align-items-center">
+      <div class="container d-flex justify-content-end justify-content-lg-between pl-0 pr-0">
+        <ul class="nav align-items-center d-none d-lg-flex">
           <li class="nav-item">
             <a class="nav-link text-white" href="#">Personas</a>
           </li>
@@ -43,6 +43,7 @@
           </li>
         </ul>
         <div class="nav__user-wrapper d-flex align-items-center">
+          <img src="./dist/static/img/avatar.svg" alt="avatar" class="nav__user-img mr-2">
           <span class="nav__user-text text-white mr-2">Ingresar</span>
           <div class="nav__user-icon d-flex align-items-center justify-content-between px-1">
             <a href="#">
@@ -54,8 +55,8 @@
             </div>
 
             <div class="dropdown bg-transparent">
-              <button class="btn dropdown-toggle text-white px-1" type="button" id="dropdownMenu2" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false"></button>
+              <button class="btn dropdown-toggle text-white px-1" type="button" id="dropdownMenu2"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
                 <button class="dropdown-item" type="button">Opción 1</button>
                 <button class="dropdown-item" type="button">
@@ -70,40 +71,49 @@
         </div>
       </div>
     </div>
-    <nav class="navbar navbar-expand-lg py-1 px-0">
+    <nav class="navbar navbar-expand-lg  py-lg-0 px-md-0">
       <div class="container">
-        <a class="navbar-brand navbar__link" href="#">
 
-          <img src="./dist/static/img/logo.svg" alt="Logo Claro" />
+          <a class="navbar-brand navbar__link" href="#">
 
-        </a>
-        <button class="navbar-toggler navbar__menu" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Servicios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Tienda</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Soporte</a>
-            </li>
-          </ul>
+            <img src="./dist/static/img/logo.svg" alt="Logo Claro" />
 
-          <div class="input-group nav__search w-100">
-            <input type="text" class="form-control h-100" placeholder="Buscar en tienda" aria-label="Buscar en tienda"
-              aria-describedby="button-addon2" />
-            <div class="input-group-append h-100">
-              <button class="btn nav__search-btn py-0 px-2" type="button" id="button-addon2">
-                <img src="./dist/static/img/search.svg" alt="search" class="nav__search-img">
-              </button>
+          </a>
+          <button class="navbar-toggler navbar__menu" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse pb-sm-2 pb-lg-0" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Tienda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Soporte</a>
+              </li>
+            </ul>
+
+            <div class="input-group nav__search w-100">
+              <input type="text" class="form-control h-100" placeholder="Buscar en tienda" aria-label="Buscar en tienda"
+                aria-describedby="button-addon2" />
+              <div class="input-group-append h-100">
+                <button class="btn nav__search-btn py-0 px-2" type="button" id="button-addon2">
+                  <img src="./dist/static/img/search.svg" alt="search" class="nav__search-img">
+                </button>
+              </div>
             </div>
-          </div>
+
+     
+
+
         </div>
+        <button type="button" class="btn  btn__login text-white ml-2 d-none d-lg-block">Mi Claro</button>
       </div>
+
     </nav>
   </header>
   <main>
@@ -208,25 +218,33 @@
             </div>
           </div>
           <div class="row mt-4 align-items-center">
-            <div class="col-lg-5 mb-md-2">
+            <div class="col-lg-5 mb-2">
               <p class="card__price font-weight-bold mb-0">
                 <span class="card__price--md font-weight-normal">S/.</span>659.00
                 <span class="card__price--md font-weight-normal">S/. <b> 989.00</b></span>
               </p>
-              <p class="card__text text-md-center mb-0">En Prepago</p>
+              <p class="card__text mb-0 ml-4">En Prepago</p>
             </div>
-                      <div class="col-lg-7 text-lg-right">
-        
-                        <div class="btn-group dropright">
-                          <button type="button" class="btn btn--md dropdown-toggle text-white font-weight-bold" aria-haspopup="true" aria-expanded="false">
-                            Lo Quiero
-                          </button>
-                        </div>              </div>
-        </div>
+            <div class="col-lg-7 text-lg-right">
+              <div class="btn-group dropright">
+                <button class="btn btn--md dropdown-toggle text-white font-weight-bold" type="button" id="dropdownMenu1"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Lo Quiero
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <button class="dropdown-item" type="button">Opción 1</button>
+                  <button class="dropdown-item" type="button">Opción 2</button>
+                  <button class="dropdown-item" type="button">Opción 3</button>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <section class="container mb-5">
+    <section class="container mt-5 mt-md-0 mb-5">
       <h2 class="section__title text-black mb-4">Especificaciones</h2>
       <div class="row mb-1 pb-md-2">
         <div class="col-sm col-md-6 col-lg py-2 card--sm">
@@ -293,7 +311,7 @@
       </div>
       <div class="row">
         <div class="col">
-          <div class="section__border d-flex justify-content-between flex-wrap">
+          <div class="section__border d-flex justify-content-between flex-wrap pt-2">
 
             <a href="#" class="section__link d-flex justify-content-center align-items-center mb-2">
               Guía Interactiva
@@ -311,7 +329,7 @@
           <div class="card border-0 mb-3">
             <h3 class="card__title text-black mb-3">Desempeño durarero</h3>
             <img src="./dist/static/img/imagen-card.png" class="card-img-top" alt="img card 1" />
-            <div class="card-body">
+            <div class="card-body px-0">
               <p class="card-text">
                 Completely impact multifunctional cesses and wireless supply
                 chains. Dynamically en gage business meta-services for
@@ -326,7 +344,7 @@
               Diseño resistente al agua
             </h3>
             <img src="./dist/static/img/imagen-card.png" class="card-img-top" alt="img card 1" />
-            <div class="card-body">
+            <div class="card-body px-0">
               <p class="card-text">
                 Completely impact multifunctional cesses and wireless supply
                 chains. Dynamically en gage business meta-services for
@@ -341,7 +359,7 @@
               Aplicaciones avanzadas
             </h3>
             <img src="./dist/static/img/imagen-card.png" class="card-img-top" alt="img card 1" />
-            <div class="card-body">
+            <div class="card-body px-0">
               <p class="card-text">
                 Completely impact multifunctional cesses and wireless supply
                 chains. Dynamically en gage business meta-services for
@@ -353,7 +371,7 @@
       </div>
     </section>
     <section>
-      <div class="jumbotron jumbotron-fluid py-3">
+      <div class="jumbotron jumbotron-fluid py-4">
         <div class="container">
           <h1 class="jumbotron__title text-black">Consideraciones:</h1>
           <p class="jumbotron__text mb-0">
@@ -439,18 +457,29 @@
       </div>
       <div class="row">
         <div class="col text-right">
-          <div class="btn-group dropdown">
-            <button type="button" class="btn btn--icon dropdown-toggle text-white font-weight-bold" aria-haspopup="true"
-              aria-expanded="false">
+
+
+          <div class="btn-group  dropdown">
+            <button class="btn btn--icon dropdown-toggle text-white font-weight-bold px-4" type="button"
+              id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               ¿Necesitas ayuda?
             </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu3">
+              <button class="dropdown-item" type="button">Opción 1</button>
+              <button class="dropdown-item" type="button">Opción 2</button>
+              <button class="dropdown-item" type="button">Opción 3</button>
+            </div>
           </div>
+
+
+
+
         </div>
       </div>
     </section>
     <section class="section--bg-ligth">
       <div class="container py-5">
-        <h2 class="text-center text-black mb-5 font-weight-light">
+        <h2 class="section__title text-center text-black mb-5 font-weight-light">
           Compra en línea de forma fácil y segura
         </h2>
         <div class="row align-items-center">
@@ -564,23 +593,23 @@
               <li class="font-weight-bold">Redes sociales</li>
               <li class="list-inline-item">
                 <a href="https://www.facebook.com/AmericaMovilPeruSAC" target="_blank" rel="noopener noreferrer">
-                <img src="./dist/static/img/facebook.svg" alt="facebook" class="list__img">
-              </a>
+                  <img src="./dist/static/img/facebook.svg" alt="facebook" class="list__img">
+                </a>
               </li>
               <li class="list-inline-item">
                 <a href="https://twitter.com/claroperu" target="_blank" rel="noopener noreferrer">
-                <img src="./dist/static/img/twitter.svg" alt="twitter" class="list__img">
-              </a>
+                  <img src="./dist/static/img/twitter.svg" alt="twitter" class="list__img">
+                </a>
               </li>
               <li class="list-inline-item">
                 <a href="https://www.youtube.com/claroperu" target="_blank" rel="noopener noreferrer">
-                <img src="./dist/static/img/youtube.svg" alt="youtube" class="list__img">
-              </a>
+                  <img src="./dist/static/img/youtube.svg" alt="youtube" class="list__img">
+                </a>
               </li>
               <li class="list-inline-item">
                 <a href="#" target="_blank" rel="noopener noreferrer">
-                <img src="./dist/static/img/googleplus.svg" alt="googleplus" class="list__img">
-              </a>
+                  <img src="./dist/static/img/googleplus.svg" alt="googleplus" class="list__img">
+                </a>
               </li>
 
             </ul>

@@ -30,7 +30,7 @@
 .nav__user-icon {
   background-color: #1f97ae; }
 
-.nav__icon {
+.nav__icon, .nav__user-img {
   width: 20px; }
 
 .nav__notifications {
@@ -58,6 +58,12 @@
   .navbar .nav-link {
     font-size: 18px;
     line-height: 22px; }
+  .navbar__menu {
+    border-color: #ffffff; }
+    .navbar__menu:focus {
+      outline: none; }
+    .navbar__menu .navbar-toggler-icon {
+      background-image: url("../img/menu.svg"); }
 
 .breadcrumb--bg-ligth {
   background-color: #cacaca; }
@@ -185,7 +191,7 @@
             background-size: contain;
     background-repeat: no-repeat;
     vertical-align: middle;
-    margin-right: 20px; }
+    margin-right: 12px; }
   .btn--icon:after {
     margin-left: 20px; }
 
@@ -199,6 +205,14 @@
   font-family: "Roboto"; }
   .btn-group .btn--md:after {
     border-left-color: #ff831e; }
+
+.btn__login {
+  width: 104px;
+  height: 68px;
+  background-color: #b91c29; }
+  .btn__login:focus {
+    -webkit-box-shadow: none;
+            box-shadow: none; }
 
 .heading {
   font-size: 25px;
@@ -258,7 +272,7 @@
 
 .section__title {
   font-size: 25px;
-  line-height: 42px;
+  line-height: 30px;
   font-family: "DIN Pro"; }
   @media (min-width: 576px) {
     .section__title {

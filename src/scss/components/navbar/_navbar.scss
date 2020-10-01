@@ -4,4 +4,13 @@
     font-size: 18px;
     line-height: 22px;
   }
+  &__menu {
+    border-color: $color-white;
+    &:focus {
+      outline: none;
+    }
+    .navbar-toggler-icon {
+      background-image: url("../img/menu.svg");
+    }
+  }
 }

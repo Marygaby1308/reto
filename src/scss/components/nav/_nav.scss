@@ -19,7 +19,9 @@
   &__user-icon {
     background-color: $color-blue-ligth;
   }
-  &__icon {
+
+  &__icon,
+  &__user-img {
     width: 20px;
   }
   &__notifications {
